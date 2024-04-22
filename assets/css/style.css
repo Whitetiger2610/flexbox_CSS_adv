@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: "Roboto";
+}
+.contactos{
+    display: flex;
+    flex-basis: 20%;
+    max-height: 100hv;
+    border: solid 1px;
+    border-color: gray;
+    flex-direction: column;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-bottom-width: 1px;
+    flex-basis: 5%;
+    padding: 3px;
+    align-items: center;
+}
+.status{
+    display: flex;
+    flex-basis: 70%;
+}
+.circular{
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+.statusInterno{
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+}
+.nombre{
+    margin: 0;
+    font-weight: bold;
+}
+.estado{
+    margin:0;
+    font-size: 12px;
+    color: gray;
+}
+
+.chats{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 85%;
+}
+
+.chat1{
+    display: flex;
+    height: 45px;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-bottom-width: 1px;
+    padding: 20px;
+    align-items: center;
+}
+.circular1{
+    padding: 10px;
+    width: 20%;
+    border-radius: 50%;
+}
+.chatInterno1{
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+}
+.nombre1{
+    margin: 0;
+    font-weight: bold;
+}
+.estado1{
+    margin:0;
+    font-size: 12px;
+}
+.new_chat{
+    display: flex;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: gray;
+    flex-basis: 10%;
+}
+.boton{
+    margin: 20px;
+    padding: 20px;
+    background: lightskyblue;
+}
+
+.principal{
+    display: flex;
+    flex-basis: 80%;
+    justify-content: center;
+}
+
+.contenido{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgPpal{
+    width: 50%;
+    border-radius: 5%;
+ }
+.tituloPpal{
+    font-size: 3em;
+}
+ .parrafoPpal{
+    font-size: 1.5em;
+    margin:5px;
+    text-align: center;
+ }
